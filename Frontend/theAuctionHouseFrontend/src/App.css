@@ -1,0 +1,25 @@
+/* App.css — additional small styles to complement Tailwind */
+.logo {
+	width: 56px;
+	height: 56px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 12px;
+	background: rgba(255,255,255,0.06);
+	border: 1px solid rgba(255,255,255,0.08);
+}
+
+.card-title {
+	font-weight: 700;
+	font-size: 1.25rem;
+}
+
+.fast-fade {
+	animation: fadeIn 0.45s ease both;
+}
+
+@keyframes fadeIn {
+	from { opacity: 0; transform: translateY(6px); }
+	to { opacity: 1; transform: translateY(0); }
+}
